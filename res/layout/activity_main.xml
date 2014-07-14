@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_relative_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_play"
+            android:layout_gravity="center"
+            android:contentDescription="@null"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/level_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_easy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_menu"
+            android:text="@string/level_easy"
+            android:textColor="#ffff"
+            android:textSize="25sp"
+            android:layout_weight="1" 
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btn_medium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_menu"
+            android:text="@string/level_medium"
+            android:textColor="#ffff"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"/>
+        
+         <Button
+            android:id="@+id/btn_hard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_menu"
+            android:text="@string/level_hard"
+            android:textColor="#ffff"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

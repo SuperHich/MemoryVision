@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MemoCard</string>
+    <string name="app_name">Memory Vision</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_game">GameActivity</string>
+    
+    <string name="menu_start">Start</string>
+	<string name="menu_exit">Exit</string>
+	
+	 <string name="level_easy">Easy</string>
+	<string name="level_medium">Medium</string>
+	 <string name="level_hard">Hard</string>
 
+	 <string name="go">GO !</string>
+	 <string name="yes">Yes</string>
+	 <string name="no">No</string>
+	 <string name="ok">OK</string>
+	 
+	 <string name="win">You win</string>
+	 <string name="lost">You lost</string>
+	 <string name="exit">Are you sure to exit ?</string>
+	 
+	 <string name="removeItem">Remove</string>
 </resources>
